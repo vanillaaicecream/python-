@@ -1,2 +1,6 @@
-text = input("Enter text: ").lower().replace(" ", "")
-print("Palindrome" if text == text[::-1] else "Not a palindrome")
+text = input("Enter a word: ")
+
+if text == text[::-1]:
+    print("Palindrome")
+else:
+    print("Not a palindrome")
